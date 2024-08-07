@@ -4,8 +4,9 @@
     "module": "commonjs",
     "declaration": true,
     "outDir": "./lib",
-    "strict": true
+    "strict": true,
+    "rootDir": "./src"
   },
-  "include": ["./**/*.ts"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "**/__tests__/*"]
 }

@@ -59,4 +59,4 @@ const colors: ColorPalette = {
   },
 };
 
-export default colors;
+export { colors };
