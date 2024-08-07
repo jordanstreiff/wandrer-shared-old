@@ -1,0 +1,19 @@
+{
+  "name": "wandrer-shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/colors.js",
+  "types": "lib/colors.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "typescript": "^5.5.4"
+  }
+}
